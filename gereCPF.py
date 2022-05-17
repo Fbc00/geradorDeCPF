@@ -11,7 +11,7 @@ for i in range(0, 2):
         aux += valor * valeu
     digito = 11 - (aux % 11)
 
-    if digito > 10 : digito = 0
+    if digito > 9 : digito = 0
 
     CPF += str(digito)
     contador += 1
